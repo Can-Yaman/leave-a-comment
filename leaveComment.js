@@ -1,4 +1,3 @@
-// "use strict";
 const topicData = {
     title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aspernatur!",
     explantion: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni nostrum beatae autem expedita perferendis, aliquid corporis nam aspernatur repellendus cumque. Ex dolorem quam expedita excepturi pariatur nemo consequuntur dolorum unde!Dicta repellat sunt dignissimos maxime dolorem ut,architecto aliquid expedita non, quos hic cum natus harum ex molestias eveniet facilis tempora minima excepturi ipsa modi exercitationem,culpa veniam reiciendis.Odio.",
@@ -6,25 +5,8 @@ const topicData = {
     dateTime: "2020-09-28 12:30",
 };
 
-let requestURL = 'https://can-yaman.github.io/leave-a-comment/myJSON.json';
-let myRequest = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
-request.onload = function() {
-    let data = request.response;
-}
+let data = databank;
 
-// fetch(myRequest).then(function(resp) {
-//     return resp.json();
-// }).then(function(dataj) {
-//     const data = JSON.parse(dataj);
-// })
-
-// let data = JSON.parse(myJSON);
-
-console.log(data);
-// console.log(JSON.parse(jdata[1]));
 const commentsContainer = document.querySelector(".container--commnets");
 
 function loadTopic() {

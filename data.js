@@ -1,4 +1,4 @@
-{
+databank = {
     "commentIdCounter": 3,
 
     "commentData": [{
