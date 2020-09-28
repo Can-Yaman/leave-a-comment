@@ -4,7 +4,11 @@ const topicData = {
     topicAuthor: "Can Yaman",
     dateTime: "2020-09-28 12:30",
 };
-
+fetch("./myJASON.json").then(function(resp) {
+    return resp.json();
+}).then(function(data) {
+    console.log(data);
+})
 let data = JSON.parse(myJSON);
 
 const commentsContainer = document.querySelector(".container--commnets");
