@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+html {
+    font-size: 15px;
+}
+
+body {
+    background-image: url("https://picsum.photos/id/403/600/400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Indie Flower", cursive;
+    font-weight: 900;
+}
+
+header {
+    text-align: center;
+    color: hue($color: #094f77);
+    width: 100%;
+    margin: auto;
+    position: sticky;
+    top: 1.1rem;
+    background-color: rgb(214, 189, 169);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    &--topic {
+        position: sticky;
+        top: 10%;
+        border-radius: 2rem;
+        padding: 0.7rem;
+        background-color: rgb(138, 126, 106);
+        color: white;
+        display: flex;
+        flex-flow: column;
+        &__author {
+            width: 30%;
+            align-self: flex-end;
+            margin-bottom: 0.5rem;
+        }
+        &__datetime {
+            width: 30%;
+            align-self: flex-end;
+            margin: 0;
+        }
+        &__button {
+            background-color: #aaa;
+            color: white;
+            width: 10%;
+            border: solid;
+            cursor: pointer;
+            margin: auto;
+            border-radius: 1rem;
+        }
+    }
+    &--commnets {
+        &__support {
+            padding: 0.7rem;
+            margin: 2rem auto;
+            background-color: #f2f2f2;
+            color: black;
+            border-radius: 2rem;
+            display: flex;
+            flex-flow: column;
+            .author {
+                width: 30%;
+                align-self: flex-end;
+                margin-bottom: 0.5rem;
+            }
+            .datetime {
+                width: 30%;
+                align-self: flex-end;
+                margin: 0;
+            }
+        }
+        &__reject {
+            padding: 0.7rem;
+            margin: 2rem auto;
+            background-color: rgb(70, 70, 70);
+            color: white;
+            border-radius: 2rem;
+            display: flex;
+            flex-flow: column;
+            .author {
+                width: 30%;
+                align-self: flex-end;
+                margin-bottom: 0.5rem;
+            }
+            .datetime {
+                width: 30%;
+                align-self: flex-end;
+                margin: 0;
+            }
+        }
+    }
+}
+
+.form-popup {
+    display: none;
+    flex-flow: column;
+    align-items: center;
+    justify-items: center;
+    h2 {
+        text-align: center;
+        margin: 0.5rem;
+    }
+    label {
+        display: block;
+        margin: 0.5rem;
+        text-align: right;
+        height: 2rem;
+    }
+    textarea {
+        display: block;
+        width: 70%;
+        height: 6rem;
+        margin: 0.5rem;
+    }
+    .buttons {
+        display: inline-block;
+        width: 30%;
+        margin: 0.5rem;
+        #reset {
+            float: left;
+            width: 40%;
+            height: 2rem;
+            border-radius: 0.5rem;
+            color: white;
+            background-color: rgb(97, 22, 22);
+        }
+        #submit {
+            float: right;
+            width: 40%;
+            height: 2rem;
+            border-radius: 0.5rem;
+            background-color: #094f77;
+            color: white;
+        }
+    }
+}

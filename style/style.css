@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+html {
+  font-size: 15px;
+}
+
+body {
+  background-image: url("https://picsum.photos/id/403/600/400");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Indie Flower", cursive;
+  font-weight: 900;
+}
+
+header {
+  text-align: center;
+  color: 201.81818deg;
+  width: 100%;
+  margin: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1.1rem;
+  background-color: #d6bda9;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+}
+
+.container--topic {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10%;
+  border-radius: 2rem;
+  padding: 0.7rem;
+  background-color: #8a7e6a;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.container--topic__author {
+  width: 30%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: 0.5rem;
+}
+
+.container--topic__datetime {
+  width: 30%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin: 0;
+}
+
+.container--topic__button {
+  background-color: #aaa;
+  color: white;
+  width: 10%;
+  border: solid;
+  cursor: pointer;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.container--commnets__support {
+  padding: 0.7rem;
+  margin: 2rem auto;
+  background-color: #f2f2f2;
+  color: black;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.container--commnets__support .author {
+  width: 30%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: 0.5rem;
+}
+
+.container--commnets__support .datetime {
+  width: 30%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin: 0;
+}
+
+.container--commnets__reject {
+  padding: 0.7rem;
+  margin: 2rem auto;
+  background-color: #464646;
+  color: white;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.container--commnets__reject .author {
+  width: 30%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: 0.5rem;
+}
+
+.container--commnets__reject .datetime {
+  width: 30%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin: 0;
+}
+
+.form-popup {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.form-popup h2 {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.form-popup label {
+  display: block;
+  margin: 0.5rem;
+  text-align: right;
+  height: 2rem;
+}
+
+.form-popup textarea {
+  display: block;
+  width: 70%;
+  height: 6rem;
+  margin: 0.5rem;
+}
+
+.form-popup .buttons {
+  display: inline-block;
+  width: 30%;
+  margin: 0.5rem;
+}
+
+.form-popup .buttons #reset {
+  float: left;
+  width: 40%;
+  height: 2rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: #611616;
+}
+
+.form-popup .buttons #submit {
+  float: right;
+  width: 40%;
+  height: 2rem;
+  border-radius: 0.5rem;
+  background-color: #094f77;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
