@@ -1,3 +1,4 @@
+"use strict";
 const topicData = {
     title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aspernatur!",
     explantion: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni nostrum beatae autem expedita perferendis, aliquid corporis nam aspernatur repellendus cumque. Ex dolorem quam expedita excepturi pariatur nemo consequuntur dolorum unde!Dicta repellat sunt dignissimos maxime dolorem ut,architecto aliquid expedita non, quos hic cum natus harum ex molestias eveniet facilis tempora minima excepturi ipsa modi exercitationem,culpa veniam reiciendis.Odio.",
