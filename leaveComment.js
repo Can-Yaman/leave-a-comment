@@ -1,8 +1,8 @@
 const topicData = {
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aspernatur!",
-    explantion: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni nostrum beatae autem expedita perferendis, aliquid corporis nam aspernatur repellendus cumque. Ex dolorem quam expedita excepturi pariatur nemo consequuntur dolorum unde!Dicta repellat sunt dignissimos maxime dolorem ut,architecto aliquid expedita non, quos hic cum natus harum ex molestias eveniet facilis tempora minima excepturi ipsa modi exercitationem,culpa veniam reiciendis.Odio.",
+    title: "Is the death penalty effective as a punishment?",
+    explantion: "here is no credible evidence that the death penalty deters crime more effectively than long terms of imprisonment. States that have death penalty laws do not have lower crime rates or murder rates than states without such laws. And states that have abolished capital punishment show no significant changes in either crime or murder rates.",
     topicAuthor: "Can Yaman",
-    dateTime: "2020-09-28 12:30",
+    dateTime: "2020-09-28 19:30",
 };
 
 let data = databank;
